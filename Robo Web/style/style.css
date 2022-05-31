@@ -1,0 +1,221 @@
+/* .................function for all............................. */
+.conteiner{
+    max-width: 1140px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+@font-face {
+    src: url(../font/bpg_extrasquare_mtavruli.ttf);
+    font-family: extr;
+}
+body{
+    background-color: whitesmoke;
+}
+#article{
+    margin-bottom: 100px;
+}
+
+/* .................function for all............................. */
+/* ............header section......................... */
+header{
+    height: 90px;
+}
+.logo{
+    width: 30%;
+    justify-content: center;
+}
+.nav{
+    width: 50%;
+}
+.nav ul{
+    justify-content: space-around;
+}
+li a{
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: extr;
+}
+li a:hover{
+    color: #688988;;
+}
+li{
+    transition: all 2s ease-in-out;
+}
+li:hover {
+    transform: rotate(360deg);
+}
+.contactinf{
+    width: 20%;
+    justify-content: space-between;
+}
+img{
+    width: 180px;
+}
+#gaint{
+    align-items: center;
+    height: 100%;
+}
+.widthheader{
+    height: 100%;
+}
+.contactinf span{
+    font-weight: 600;
+}
+/* ............header section......................... */
+/* ...............baner........................... */
+#backgroundbaner{
+    height: 400px;
+    width: 100%;
+    background-image:url(..//img/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+/* ...............baner........................... */
+/*  .................abot us section.............. */
+#aboutus{
+    height: 450px;
+}
+#about{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+#about h3{
+    width: 70%;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 55px;
+    font-family: extr;
+    margin: auto;
+    padding-bottom: 30px;
+}
+#about p{
+    color:#7E8081;
+    font-size: 18px;
+    line-height: 20px;
+    padding-bottom: 30px;
+}
+#about .Btnclick{
+    font-size: 18px;
+    padding: 10px 40px;
+    border:none;
+    border-radius: 7px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+#about .Btnclick:hover{
+    width: 200px;
+    height: 50px;
+
+}
+/*  .................abot us section.............. */
+/* ...................offer section.................... */
+.offerhight{
+    height: 85%;
+    justify-content: space-between;
+}
+.offer{
+    width: 30%;
+    height: 100%;
+    background-color:white;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    box-shadow:-2px 3px 18px 2px #0000004a;
+    transition: 1s;
+}
+.offer:hover{
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+.offer button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+button i{
+    font-size: 70px;
+    color: #7E8081;
+}
+.InsideOfer{
+    flex-direction: column;
+    height: 30%;
+    align-items: center;
+
+}
+.InsideOfer h3{
+    font-size: 25px;
+    font-family: extr;
+    font-weight: 900;
+    padding-bottom: 12px;
+}
+.InsideOfer p{
+    font-family: extr;
+    font-size: 18px;
+    color:#7E8081;
+}
+#offeroverall{
+    height: 450px;
+    position: relative;
+}
+#offeroverall h2{
+    text-align: center;
+    font-family: extr;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+/* ...................offer section.................... */
+/* ....................footer section.................... */
+#foooter{
+    border-top: dotted silver 2px;
+    height: 80px;
+}
+.foot{
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    color:#7E8081;
+    font-size: 18px;
+}
+.socicons .soc{
+    color:#7E8081;
+    font-size: 18px;
+    padding: 2px;
+}
+/* ....................footer section.................... */
+
+/* js vunction */
+.hidden{
+    display: none;
+}
+.cover{
+    z-index: 3;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+}
+.hiddendiv{
+    position: absolute;
+    z-index: 4;
+    color: black;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    width: 400px;
+    height: 400px;
+    left: 40.3%;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: normal;
+    line-height: 30px;
+}
+
